@@ -2,45 +2,48 @@
 <html>
 	<head>
 		<title>My CV</title>
-        <link
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+        <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
         <link rel="stylesheet" href="./styles.css"/>
 	</head>
 	<body>
-		<div class="intro">
-			<img src="./182_1_Interior_Armani.jpg" alt = "photo" height="136" width="106" </>
-			<div class="heading">Tygran Khachaturiants</div>
-			<div class="prof">QA engeneer</div>
-			<div class="summary">I learn coding as I want to become developer.</div>
-		</div>
+		<header class="container">
+		    <div class="header-wrap">
+                <div class="intro">
+                    <div class="heading">Tygran Khachaturiants</div>
+                    <div class="prof">QA engeneer</div>
+                    <div class="summary">I learn coding as I want to become developer.</div>
+                </div>
+                <div class="photo"> 
+                    <img src="./182_1_Interior_Armani.jpg" alt = "photo" width="100"/>
+                </div>
+            </div>
+            <ul class="contact-info">
+                <li class="data">
+                    Shuhevycha avenue, Kyiv, Ukraine
+                </li>
+                <li class="data">
+                    <a href="tel:+380665243626">+380(66)5243626</a>				
+                </li>
+                <li class="data">
+                    <a href="mailto:tigran.khachaturyants@gmail.com">tigran.khachaturyants@gmail.com</a>
+                </li>
+            </ul>
+                
+    		
+		</header>
 		<!--Contact Information-->
-		<ul class="contact-info">
-			<!-- <div class="icon">
-				<div class="fas fa-map-signs"></div>
-			</div> -->
-			<li class="data">
-				Shuhevycha avenue, Kyiv, Ukraine
-			</li>
-<!-- 			<li class="icon">
-				<div class="fas fa-mobile-alt"></div>
-			</li> -->
-			<li class="data">
-                <a href="tel:+380665243626">+380(66)5243626</a>
-				
-			</li>
-<!-- 			<div class="icon">
-				<div class="fas fa-envelope"></div>
-			</div> -->
-			<li class="data">
-                <a href="mailto:tigran.khachaturyants@gmail.com">tigran.khachaturyants@gmail.com</a>
-				
-			</li>
-		</ul>
+		
 		<!--Skills Section-->
 		<div class="subheading">Skills</div>
 		<div class="skills">

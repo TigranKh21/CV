@@ -1,3 +1,8 @@
+body {
+	font-family: Indie Flower, cursive;
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -7,7 +12,7 @@ ul {
 }
 
 .heading{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
@@ -15,23 +20,48 @@ ul {
 	background-color:#2F5A78;
 	color: white;
 	padding-left: 16px;
-	padding-bottom: 8px;
-	margin-bottom: 4px;
+	padding-top: 12px;
+    flex-grow: 1;
+    }
+
+.container {
+    width: 100%;
 }
-body {
-	font-family: Blippo, fantasy, "San serif";
+
+.header-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
 }
+
+.photo {
+    width: auto;
+    height: auto; 
+}
+
+.photo img {
+    display: block;
+}
+
 .prof{
-	font-size: 20px;
+	font-size: 12px;
 	font-weight: lighter;
 }
+
+.summary {
+    font-size: 12px;
+}
+
 .contact-info{
-	font-size: 15px;
+	font-size: 18px;
 	padding-left: 16px;
 	padding-bottom: 6px;
-	margin-bottom: 6px;
+	margin-bottom: 0;
+    margin-top: 0;
 	background-color: #eeeeee
 }
+
 .subheading{
 	font-size: 20px;
 	font-weight: bolder;
@@ -55,7 +85,7 @@ body {
 	display: flex;
 	margin-bottom: 10px;
 	justify-content: space-between;
-	align-item: center;
+	align-items: center;
 	margin-left: -15px;
 }
 .skills ul li .skill_prog{
@@ -77,4 +107,45 @@ body {
 }
 img{
 	float: right;
+}
+
+@media screen and (min-width: 366px) {
+    .summary {
+        font-size: 16px;
+    }
+
+    .prof{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 435px) {
+    .summary {
+        font-size: 20px;
+    }
+
+/*     .prof {
+        font-size: 16px;
+    }
+ */
+    .heading {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 510px) {
+    .summary {
+        font-size: 20px;
+    }
+
+    .prof {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
 }
